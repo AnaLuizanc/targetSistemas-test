@@ -16,6 +16,14 @@ void calculaFibonacci(int vetor[TAMANHO_MAX]){
         vetor[i] = vetor[i-1] + vetor[i-2];
 }
 
+int pertenceFibonacci(int vetor[TAMANHO_MAX], int valor){
+    for(int i = 0; i<TAMANHO_MAX; i++){
+        if(vetor[i] == valor)
+            return valor;
+    }
+    return -1;
+}
+
 int main(){
     int fibonacci[TAMANHO_MAX];
 
