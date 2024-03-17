@@ -26,15 +26,19 @@ int pertenceFibonacci(int vetor[TAMANHO_MAX], int valor){
 
 void mensagem(int retorno){
     if(retorno == -1)
-        cout << "O número não pertence a sequência de Fibonacci." << endl;
+        cout << "O numero nao pertence a sequencia de Fibonacci." << endl;
     else
-        cout << "O número pertence a sequÊncia de Fibonacci." << endl;
+        cout << "O numero pertence a sequencia de Fibonacci." << endl;
 }
 
 int main(){
     int fibonacci[TAMANHO_MAX];
     int retorno;
     calculaFibonacci(fibonacci);
+    retorno = pertenceFibonacci(fibonacci, 13);
+    mensagem(retorno);
+    retorno = pertenceFibonacci(fibonacci, 65);
+    mensagem(retorno);
     
     return 0;
 }
