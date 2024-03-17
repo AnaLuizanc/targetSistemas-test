@@ -14,8 +14,15 @@ void imprimeInverso(string myString, int tamanho){
 }
 
 int main(){
+    string myString;
+    myString = "Hello World!";
+    imprimeInverso(myString, tamanhoString(myString));
+    
+    myString = "Target Sistemas";
+    imprimeInverso(myString, tamanhoString(myString));
 
-    cout << tamanhoString("testando") << endl;
+    myString = "Ana Luiza Nobre";
+    imprimeInverso(myString, tamanhoString(myString));
 
     return 0;
 }
