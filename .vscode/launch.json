@@ -8,8 +8,8 @@
       "args": [],
       "stopAtEntry": false,
       "externalConsole": true,
-      "cwd": "c:/Users/analu/OneDrive/Documentos/GitHub/targetSistemas-test/Solucao2",
-      "program": "c:/Users/analu/OneDrive/Documentos/GitHub/targetSistemas-test/Solucao2/build/Debug/outDebug",
+      "cwd": "c:/Users/analu/OneDrive/Documentos/GitHub/targetSistemas-test/Solucao5",
+      "program": "c:/Users/analu/OneDrive/Documentos/GitHub/targetSistemas-test/Solucao5/build/Debug/outDebug",
       "MIMode": "gdb",
       "miDebuggerPath": "gdb",
       "setupCommands": [
