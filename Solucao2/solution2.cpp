@@ -9,17 +9,11 @@ IMPORTANTE:
 Esse número pode ser informado através de qualquer entrada de sua preferência ou pode ser previamente definido no código;
 */
 
-int calculaFibonacci(int vetor[TAMANHO_MAX], int valor){
+void calculaFibonacci(int vetor[TAMANHO_MAX]){
     vetor[0] = 0;
     vetor[1] = 1;
     for(int i = 2; i<TAMANHO_MAX; i++)
         vetor[i] = vetor[i-1] + vetor[i-2];
-
-    for(int i = 0; i<TAMANHO_MAX; i++){
-        if(vetor[i] == valor)
-            return valor;
-    }
-    return -1;
 }
 
 int main(){
